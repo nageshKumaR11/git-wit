@@ -1,10 +1,17 @@
 a = 1
 b = 2 
 
-print(a+b)
-print(a*b)
-print(a/b)
-print(a-b)
+expres = ["+", "-", "*", "/"]
+
+for e in expres:
+    print(a, e, b,"=", f"{a}{e}{b}" )
+
+
+
+# print(a+b)
+# print(a*b)
+# print(a/b)
+# print(a-b)
 
 
 
